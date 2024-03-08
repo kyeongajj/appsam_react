@@ -1,0 +1,70 @@
+1. 강의 목표
+- 리액트의 원리를 이해하고 CRA를 통해 프로젝트를 만들어본다.
+- 컴포넌트의 흐름을 이해하고 사용해본다.
+
+2. 순서
+
+- CRA로 프로젝트 생성
+
+- Header, Body, Footer 컴포넌트 만들어서 렌더링해보기 쉬우니까
+
+- styledComponent 사용해보기 ㅇㅋ
+
+- state와 props 사용해보기 ㅇㅋ
+
+- 삼항연산자로 조건부 렌더링해보기 (modal 만들어보기) ㅇㅋ
+
+- Props ts와 함께 사용해보기 (modal에 props로 open, onClose, Counter가 3의 배수일 때 배경색 바꾸는 props 넘겨보기) (interface 만들어보기)
+
+- mui Modal 컴포넌트 사용해보기
+
+- Layout.tsx 컴포넌트 만들어서 children 사용해서 같은 레이아웃의 여러 컴포넌트 렌더링 해보기 (Modal 내부)
+
+/////////////// 240208 했음 //////////////
+
+- Route로 페이지 이동해보기
+
+- Route Nesting 해보기 (탭 UI)
+
+3. TodoList 만들어서 실습하기
+- theming
+- 요구사항 분석하기
+- 컴포넌트 설계하기
+- UI 구현하기 (퍼블리싱)
+- 기능개발하기
+ 1) Create :
+  - 데이터 모델링
+  - mock 데이터 생성
+  - create함수 구현
+  - 빈 입력 방지
+  - 추가 후 입력 폼 초기화
+  - 엔터키 눌러 아이템 추가
+ 2) Read :
+  - 배열을 List로 렌더링하기
+  - 검색어에 따라 필터링하기
+ 3) Update :
+  - onUpdate함수 구현하기 (체크박스 토글)
+ 4) Delete :
+  - onDelete함수 구현하기
+
+다 만들고 나서 더 할 수 있는 것이 무엇이 있을지 고민해보기
+
+4. esLint, prettier 설정하기 (설정 했음)
+- npm install eslint --save-dev
+- npm install --save-dev --save-exact prettier
+- npm install --save-dev eslint-plugin-prettier eslint-config-prettier
+- project root에 .eslintrc.json 파일 생성
+- project root에 .prettierrc 파일 생성
+- IDE에서 저장 시 실행되도록 설정하기
+- Frontend에서는 esLint와 prettier 사용 필수
+
+5. useReducer 이해하기
+- 이해하고 한번 간단히 사용해보고 넘어가기 (UseReducer.tsx)
+
+6. 최적화와 메모이제이션
+- useMemo 알아보기
+- React.memo 알아보기
+- 불필요한 컴포넌트 리렌더 방지하기
+- HOC와 횡단 관심사 알아보기 (HOCExample.tsx)
+- React.memo 사용해보기
+- useCallback 사용해보기
